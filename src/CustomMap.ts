@@ -14,6 +14,6 @@ export class CustomMap {
 		});
 	}
 
-	addUserMarker() {}
-	addCompanyMarker() {}
+	addUserMarker(user: User): void {}
+	addCompanyMarker(company: Company): void {}
 }

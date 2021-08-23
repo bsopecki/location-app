@@ -136,9 +136,9 @@ var CustomMap = function () {
     });
   }
 
-  CustomMap.prototype.addUserMarker = function () {};
+  CustomMap.prototype.addUserMarker = function (user) {};
 
-  CustomMap.prototype.addCompanyMarker = function () {};
+  CustomMap.prototype.addCompanyMarker = function (company) {};
 
   return CustomMap;
 }();
